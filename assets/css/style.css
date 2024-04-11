@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 400;
+}
+
+.lead {
+    font-weight: 400;
+    color: #000;
+}
+
+.contact h4 {
+    font-weight: bold;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
